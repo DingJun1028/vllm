@@ -39,3 +39,4 @@ matplotlib # required for qwen-vl test
 num2words # required for smolvlm test
 pqdm
 timm # required for internvl test
+transformers>=4.36.0 # not directly required, pinned by Snyk to avoid a vulnerability
